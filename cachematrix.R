@@ -16,9 +16,7 @@ makeCacheMatrix <- function (x = as.matrix()) {
 }
 # the result is an object makeCacheMatrix which will be passed to the following
 
-# cacheSolve function
-
-###Cachesolve function
+###cacheSolve function
 
 cacheSolve <- function(x, ...) {
   m <- x$getmatrix()
@@ -31,4 +29,3 @@ cacheSolve <- function(x, ...) {
   x$setmatrix(m)
   m
 }
-
